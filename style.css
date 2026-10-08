@@ -1,0 +1,45 @@
+/* Inicio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Cabecalho */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: #000000;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.menu a:hover {
+    color: #ff0000;
+}

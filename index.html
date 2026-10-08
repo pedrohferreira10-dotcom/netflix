@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>Netflix - Assista a séries e filmes online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="topo" id="inicio">
+        <a class="logo" href="#inicio">
+            <img src="img/logo netflix.png" alt="Logotipo da Netflix">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Sinta tudo, um episódio por vez.</h1>
+            <p>Filmes, series e muito mais, sem limites. Assista onde quiser. Cancele quando quiser.</p>
+            <a class="botao" href="#planos">Assine Agora</a>
+        </section>
+
+        <section class="secao" id="beneficios">
+            <h2>Motivos para assinar</h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src="img/netflix-tv.jpg" alt="TV rodando a Netflix">
+                    <h3>Assista na TV</h3>
+                    <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV e outros dispositivos.</p>
+                </article>
+                <article class="card">
+                    <img src="img/netflix-baixar.jpg" alt="Celular com o ícone de download da Netflix">
+                    <h3>Baixe para assistir offline</h3>
+                    <p>Salve seus títulos favoritos facilmente e sempre tenha algo para assistir, mesmo sem internet.
+                    </p>
+                </article>
+                <article class="card">
+                    <img src="img/netflix-kids.jpg" alt="Perfil kids na Netflix">
+                    <h3>Crie perfis para crianças</h3>
+                    <p>Deixe as crianças viverem aventuras com seus personagens favoritos em um espaço feito só para
+                        elas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao" id="planos">
+            <h2>Escolha o melhor plano para você</h2>
+            <div class="grade limpa">
+                <article class="card plano">
+                    <h3>Bascio com Anuncios</h3>
+                    <p class="preco">R$ 20,90 / mês</p>
+                    <ul>
+                        <li>Resolução 1080p (Full HD)</li>
+                        <li>Assista em até 2 telas</li>
+                        <li>Com intervalos comerciais</li>
+                        <li>Sem opção de download</li>
+                    </ul>
+                </article>
+                <article class="card plano destaque">
+                    <span class="selo">Mais popular</span>
+                    <h3>Padrão</h3>
+                    <p class="preco">R$ 44,90 / mês</p>
+                    <ul>
+                        <li>Resolução 1080p (Full HD)</li>
+                        <li>Assista em até 2 telas simultâneas</li>
+                        <li>Séries e filmes sem anúncios</li>
+                        <li>Downloads disponíveis</li>
+                    </ul>
+                </article>
+                <article class="card plano">
+                    <h3>Premium</h3>
+                    <p class="preco">R$ 59,90 / mês</p>
+                    <ul>
+                        <li>Resolução 4K (Ultra HD) + HDR</li>
+                        <li>Assista em até 4 telas simultâneas</li>
+                        <li>Audio espacial Netflix</li>
+                        <li>Downloads em até 6 aparelhos</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
