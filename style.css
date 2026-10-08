@@ -11,7 +11,7 @@ body {
     color: #ffffff;
 }
 
-/* Cabecalho */
+/* Cabeçalho */
 .topo {
     display: flex;
     justify-content: space-between;
@@ -42,4 +42,134 @@ body {
 
 .menu a:hover {
     color: #ff0000;
+}
+
+/* Tela Inicial com Titulo e Botao Central */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #000000;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    max-width: 900px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+/* Botao de Assinar */
+.botao {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #cc0000;
+}
+
+.secao {
+    padding: 80px 5%;
+    background-color: #000000;
+}
+
+.secao h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.grade.limpa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+/* Cartoes com as Imagens de Beneficios */
+.card {
+    background-color: #111111;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #cccccc;
+    padding: 0 20px;
+    font-size: 1.1rem;
+}
+
+/* Cartoes dos Precos e Planos */
+.card.plano {
+    position: relative;
+    padding: 50px 30px;
+    border: 2px solid #333333;
+}
+
+.card.plano h3 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card.plano ul {
+    list-style: none;
+    text-align: left;
+    color: #cccccc;
+}
+
+.card.plano ul li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333333;
+}
+
+.card.destaque {
+    border-color: #ff0000;
+}
+
+.selo {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
